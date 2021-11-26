@@ -1,0 +1,8 @@
+{
+  "typescript": true,
+  "expandProps": "end",
+  "icon": true,
+  "memo": true,
+  "ref": true,
+  "titleProp": true
+}
