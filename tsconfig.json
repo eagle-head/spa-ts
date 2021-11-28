@@ -23,5 +23,5 @@
     "sourceMap": true
   },
   "exclude": ["node_modules", "build"],
-  "include": ["**/*.ts", "**/*.tsx", "jest.config.js"]
+  "include": ["**/*.ts", "**/*.tsx"]
 }
