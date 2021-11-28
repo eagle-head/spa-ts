@@ -25,7 +25,7 @@ module.exports = {
   },
 
   output: {
-    path: path.join(__dirname, "../dist"),
+    path: path.join(__dirname, "../build"),
     publicPath: "/",
     filename: "static/js/[name]~[contenthash:16].js",
   },

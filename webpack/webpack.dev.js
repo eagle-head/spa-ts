@@ -21,7 +21,7 @@ module.exports = {
   },
 
   output: {
-    path: path.join(__dirname, "dist"),
+    path: path.join(__dirname, "build"),
     publicPath: "/",
     filename: "[name].js",
   },
@@ -73,7 +73,7 @@ module.exports = {
       ),
     }),
     new CopyPlugin({
-      patterns: [{ from: "./assets/robots.txt", to: "dist" }],
+      patterns: [{ from: "./assets/robots.txt", to: "build" }],
     }),
     new HtmlWebpackPlugin({
       title: process.env.PAGE_TITLE,
@@ -116,7 +116,7 @@ module.exports = {
       progress: true,
     },
     static: {
-      directory: path.join(__dirname, "dist"),
+      directory: path.join(__dirname, "build"),
       watch: {
         ignored: /node_modules/,
       },
